@@ -19,10 +19,19 @@ h2,.white{
     color: #fff;
 }
 
+h3{
+    color: #bbb;
+}
+
 a{
     color: #7A7C80;
     text-decoration: none;
 }
+
+i.fab {
+    font-weight: normal;
+}
+
 /* section 1 */
 .section-1{
     padding-top: 40vh;
@@ -41,7 +50,7 @@ a{
     margin-bottom: 10px;
 }
 
-.section-1 a{
+.section-1 a, .icon-link-container a{
     font-size: 1.5rem;
     padding: 10px;
 }
@@ -53,7 +62,13 @@ a{
 
 .section-2 h2{
     font-size: 1.7rem;
+    margin-top: 2em;
     margin-bottom: 10px;
+}
+
+.section-2 h3{
+    font-size: 1.1rem;
+    margin-bottom: 2px;
 }
 
 .section-2 p{
@@ -62,22 +77,26 @@ a{
     margin:0;
 }
 
+.section-2 .fa-li i {
+    color: #fff;
+}
+/*
 .section-2 a{
     display: block;
     padding: 5px;
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
-}
-/* animations / utilities */
+}*/
+/* animations / utilities *//*
 .section-2 a:hover{
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
-}
+}*/
 
-.section-1 a:hover{
+.section-1 a:hover, .icon-link-container a:hover{
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
